@@ -182,19 +182,6 @@ To re-run model inference experiments (requires API keys):
    ./run_batch_inference_reflection.sh
    ```
 
-**Notes**:
-- Inference scripts require valid API keys (Qianfan platform or OpenAI proxy)
-- Running full experiments may take considerable time and API costs
-- Inference results will be saved to corresponding directories
-
-## Important Notes
-
-1. **Read-only data directories**: `data/` and `reference_results/` are for reading only, code does not modify their contents
-2. **Output directory**: All analysis results are written to `outputs/` directory
-3. **Automatic path handling**: Scripts automatically determine input/output paths based on project structure, no manual configuration needed
-4. **Privacy protection**: Human data has been anonymized, API keys must be configured manually
-5. **Experiment configuration**: All experiments use temperature=0, seeds=42/43/44 to ensure reproducibility
-
 ## Citation
 
 If you use this code, please cite our paper:
@@ -202,14 +189,6 @@ If you use this code, please cite our paper:
 ```bibtex
 [To be added]
 ```
-
-## License
-
-[To be added]
-
-## Contact
-
-For questions, please contact: [To be added]
 
 ---
 
