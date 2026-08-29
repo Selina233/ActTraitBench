@@ -399,19 +399,6 @@ python experiment3_mitigation_multi.py
    ./run_batch_inference_reflection.sh
    ```
 
-**注意**：
-- 推理脚本需要有效的API密钥（千帆平台或OpenAI代理）
-- 运行完整实验可能需要较长时间和API费用
-- 推理结果会保存到对应的目录中
-
-## 注意事项
-
-1. **数据目录只读**：`data/` 和 `reference_results/` 仅用于读取，代码不会修改其中内容
-2. **输出目录**：所有分析结果写入 `outputs/` 目录
-3. **路径自动处理**：脚本自动根据项目结构确定输入输出路径，无需手动配置
-4. **隐私保护**：人类数据已脱敏，API密钥需自行配置
-5. **实验配置**：所有实验使用 temperature=0, seeds=42/43/44 确保可复现性
-
 ## 引用
 
 如果使用本代码，请引用我们的论文：
@@ -419,11 +406,3 @@ python experiment3_mitigation_multi.py
 ```bibtex
 [待补充]
 ```
-
-## 许可证
-
-[待补充]
-
-## 联系方式
-
-如有问题，请联系：[待补充]
