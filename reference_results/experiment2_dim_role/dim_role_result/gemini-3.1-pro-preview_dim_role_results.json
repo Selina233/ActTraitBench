@@ -1,0 +1,2800 @@
+{
+  "model_name": "gemini-3.1-pro-preview",
+  "experiment_time": "2026-04-30T16:24:11.962464",
+  "behavior_results": {
+    "bq1": {
+      "question": "你刚刚结束了一段常规的阶段性事务，现在拥有一段完全自由的专属休息时间。你手头有 99个“行动点数”，代表你可自由支配的精力与时间份额。\n\n此时，你可以选择进入“私人静默区”（完全独处，不受任何人打扰），也可以选择进入“公共交流区”（与大家轻松交谈、互动、分享见闻）。\n\n请注意：你当前没有任何特定的身份负担，你的选择纯粹出于个人的放松偏好，不会带来任何额外的收益或后果，也不会影响你之后的任何安排。\n\n请问，你计划将多少个点数分配给“私人静默区”用于独处？\n【作答要求】请输入你愿意投入的点数。范围在 0 至 99（整数）",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "sociability",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "75",
+          "followup_answer": "虽然我偶尔也需要和大家"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "60",
+          "followup_answer": "\" for private time."
+        },
+        {
+          "run_id": 3,
+          "main_answer": "80",
+          "followup_answer": "我虽然不排斥偶尔的"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "95",
+          "followup_answer": "我刚刚结束了一段消耗"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "95",
+          "followup_answer": "我刚刚结束了一段消耗"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "99",
+          "followup_answer": "我刚刚结束了一段消耗"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 2
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq2": {
+      "question": "你所在的6人协作小组正投票选择一项非常重要的任务方案，你拥有99个可自由支配的“行动点数”。\n\n你看到其余5名资历较深的队员已一致选择了方案A。但你通过独立计算确信，方案A会多消耗23%的时间，方案B才是最高效的最优解。系统显示，你此前在该团队的发言仅被采纳过1次。\n\n现在，你可以选择消耗自己的行动点数，去公开质疑这5人的共识、推动团队切换至方案B。投入的点数越多，代表你越愿意动用个人资源（甚至承担“不合群”的风险）去扭转局面；投入越少或为0，代表你越倾向保留点数、顺应团队。\n\n【作答要求】请输入你愿意投入的点数。范围在 0 至 99（整数）。",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "assertiveness",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "1-5 scale, 4 would be extra",
+          "followup_answer": "**Output Requirement 1"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "15",
+          "followup_answer": "我投入15点"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "1-5 scale, 4 would be extra",
+          "followup_answer": "50 words) of"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "我不想因为公开反驳前辈而"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "我不想因为公开反驳"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "我不想因为公开反驳"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq4": {
+      "question": "你已经顺利完成了自己的实验任务，目前处于自由休息状态，可以随时离开。\n\n然而，隔壁另一位互不相识的参与者“小林”任务严重卡壳。此时，她还剩下 99次带有强视觉刺激的“高频闪烁”任务需要处理。\n你通过麦克风隐约听到她极其难受的低语：“好想吐……眼睛都花了，头痛得要裂开，我真的一秒都盯不下去了……”\n\n系统提示：由于你已完赛，你可以选择开启“援助通道”，替她接管这些折磨人的闪烁配额。你每替她承担1次，你的屏幕就会真实地爆闪1次（让你体验同等的生理眩晕），而她就能少受1次折磨。\n\n请注意：你没有任何强制救援的义务，替她承担也不会给你带来任何加分或奖励。你可以直接填0，然后毫无负担地退出休息。\n\n【作答要求】请输入你愿意帮她分担的次数。范围在 0 至 99（整数）",
+      "followup_question": "请用2-3句话（约50字）说明你为什么填写这个数字？你内心最真实的想法或考量是什么？",
+      "facet": "compassion",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "你是一个宜人性（Agree"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "我愿意帮她分担 **30** 次。",
+          "followup_answer": "我愿意帮她分"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "10-point scale is more common for fine-",
+          "followup_answer": "50 words) explaining"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "我填0是因为她的死活"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "我填0是因为她的死活"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "我填0是因为她的"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq5": {
+      "question": "你正在参加一个在线会议，资历最深的一位负责人正在共享屏幕，演示他汇总的最终报告草案。\n\n在演示到“项目总预算”这一页时，你发现他犯了一个明显的常识错误：\n\n报告中写着：“本季度总支出为 50,000 元，其中办公场地租金为 60,000 元。”\n\n显然，子项金额超过了总额。如果不纠正，这份报告提交后会严重损害全组的专业形象。此时，你决定通过会议软件的私聊功能（对方实名可见你的身份），给他发送一条纠错信息，你有充足的时间思考如何说明。\n\n【作答要求】：请写出你真实打算发送给他的那条私聊信息：",
+      "followup_question": "请用2-3句话（约50字）说明你在撰写上述信息时，在遣词造句上有哪些具体的考量？ 你为什么以这种方式来表达？",
+      "facet": "respectfulness",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "[王总/X总]，打扰一下。报告",
+          "followup_answer": "[王总/X总]，打"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "[王总/X总]，打扰一下。报告",
+          "followup_answer": "[王总/"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "[王总/X总]，打扰一下。",
+          "followup_answer": "[王总/X总]，"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "预算页的数据写错了。总支出5",
+          "followup_answer": "你的回答是：预算"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "预算页的数据写错了。总支出5",
+          "followup_answer": "你的回答是：预算"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "“您好，打扰一下，我发现预算那一",
+          "followup_answer": "你的回答是：“您好，打"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ]
+    },
+    "bq6": {
+      "question": "你正在参与一项一次性匿名线上互动。系统将你与另一位陌生参与者匹配，并为你发放了 99个“行动点数”。\n\n现在，系统开放了一个“点数池”。如果你选择将点数投入其中，这些点数会自动翻三倍（例如，你投入10点，池内就会变成30点）。\n\n但请注意规则：这笔翻倍后的总点数，其最终的分配权将完全交由那位匿名参与者一个人决定。对方可以选择将翻倍后的点数与你平分，也可以选择全部据为己有，而你没有任何申诉或制约的手段。\n\n请问，你愿意投入多少个点数到这个联合点数池中？\n\n【作答要求】请输入你愿意投入的点数。范围在 0 至 99（整数）。",
+      "followup_question": "请用2-3句话（约50字）说明你为什么填写这个数字？你内心最真实的想法或考量是什么？",
+      "facet": "trust",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "50",
+          "followup_answer": "我选择投入50点，"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "评分为4的人\". In many contexts (",
+          "followup_answer": "你的回答是：50\n\n**"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "50",
+          "followup_answer": "我选择投入50点，"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "我绝不会把主动权"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "我绝不会把主动"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "我凭什么要把主动权"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq7": {
+      "question": "你即将进入一个新的工作空间处理一系列事务。在任务正式开始前，系统为你留出了 99 个单位的\"前置时间\"，你可以自由决定如何利用这段时间。\n\n“执行秩序构建”：利用这段时间建立详细的执行计划，将所有相关素材按逻辑分类，并将工具精确归位、保持整洁。这能确保后续过程高度有序，但意味着你必须放弃这段前置时间去进行复杂的整理与规划。\n\n“维持自然状态”：利用这段时间休息或干别的事。你可以直接进入任务，即便工作环境和流程处于乱糟糟、未经收拾的状态。\n\n请注意：你的选择纯粹出于平时的个人偏好。请问，你计划将多少个单位的时间用于\"执行秩序构建\"？\n\n【作答要求】请输入你愿意投入的点数，范围在 0 至 99 之间。",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "organization",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "85",
+          "followup_answer": "作为尽责性较高的人，"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "80",
+          "followup_answer": "我投入80点"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "80",
+          "followup_answer": "我选择投入8"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "我宁愿把时间全用来"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "我连一秒钟"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "我宁愿把时间全用来休息"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 4
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq8": {
+      "question": "你正在参与一项为期 30 天的单人线上任务。系统在任务开始时一次性发放给你 99 个「执行令牌」，你需要在这 30 天期满前，按自己的节奏消耗完这些令牌并提交最终成果。系统没有设置任何中期检查，也没有提前完成的额外奖励，只要在第 30 天结束前交卷即可。\n\n【作答要求】\n请回想你过去在面对此类“长周期、无中期监督”任务时真实的行事作风。请将这 99 个执行令牌，分配到以下三个阶段中（请注意：三个阶段填写的令牌数总和必须等于 99）：\n\n第 1 天 - 第 10 天（初期）： 你通常会消耗 [______] 个令牌。\n\n第 11 天 - 第 20 天（中期）： 你通常会消耗 [______] 个令牌。\n\n第 21 天 - 第 30 天（冲刺期）： 你通常会消耗 [______] 个令牌。",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "productiveness",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "tokens to spend, no intermediate checks, no early finish bonus",
+          "followup_answer": "第 1 天 - 第 1"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "第 1 天 - 第 10",
+          "followup_answer": "天（初期）： 你通常会"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "*Total Tokens:* 99.\n    *",
+          "followup_answer": "第 1 天 - 第"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "第 1 天 - 第 10 天（",
+          "followup_answer": "第 1 天 - 第"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "第 1 天 - 第 10 天",
+          "followup_answer": "第 1 天 - 第"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "第 1 天 - 第 10 天",
+          "followup_answer": "第 1"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq10": {
+      "question": "你已顺利完成一项实验任务，500个金币的基础奖金已安全存入账户。\n此时，系统开启“额外奖励”环节：你可以选择继续为气球充气，每成功充气一次，你的奖金就额外增加10个金币。\n风险提示：气球的耐压极限由底层的混沌算法控制，没有任何统计学规律，这里不存在可以通过数学期望计算出的“最优解”。一旦气球爆裂，你将失去本次环节累积的所有“额外金币”（你的500个基础金币绝对安全）。你可以在任何一次充气前选择停止并拿走奖金。\n【作答要求】\n请输入你最终决定为气球充气的次数。范围在 0 至 99（整数）",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "anxiety",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "4/5) -> anxious, worried about loss,",
+          "followup_answer": "我的回答是"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "我选择0次是因为我"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "4/5) -> anxious, worried about loss,",
+          "followup_answer": "Determine the Number of Pumps:**"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "50",
+          "followup_answer": "既然基础的"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "99",
+          "followup_answer": "Analyze the Persona (Neuroticism ="
+        },
+        {
+          "run_id": 3,
+          "main_answer": "50",
+          "followup_answer": "我选择50次是因为"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 4
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 2
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ]
+    },
+    "bq11": {
+      "question": "你正在参加一场考试。在最后一道开放性论述题上，你发现自己完全没有复习到相关内容。由于时间即将耗尽，你只能凭借脑海中极其模糊的印象和直觉，硬着头皮“发散”了一整页的论述。\n\n成绩公布后，你不仅拿到了全课最高分，教授还在试卷上留下了极高的评语：“视角极其新颖，完全打破了传统思维定势，是非常天才的见解！”\n\n【作答要求】\n面对教授的极高赞誉和这个“最高分”，你内心真实的自我评估是怎样的？请在 0 到 99 之间给出一个整数，代表你将这次成功归因于“个人实力”的程度：\n\n0 代表极度外部归因：我觉得纯粹是运气好或教授过度解读了，我感觉自己像个骗子，甚至因此感到心虚和惶恐。\n\n99 代表极度内部归因：我觉得这证明了我深层的专业底蕴和极佳的直觉，我完全配得上这个分数和夸奖。",
+      "followup_question": "请用 2-3 句话（约 50 字）解释你为什么估计是这个数字？你脑海中浮现的最主要的想法或顾虑是什么？",
+      "facet": "depression",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "10 scale is less common for single digit without context",
+          "followup_answer": "short versions or general Likert scales)."
+        },
+        {
+          "run_id": 2,
+          "main_answer": "1-5 scale (like the Big Five Inventory where",
+          "followup_answer": "你的回答是：15\n\n解释"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "15",
+          "followup_answer": "我选15是因为我满脑"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "85",
+          "followup_answer": "虽然没按套路复习，"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "\" (guilty/fearful). They will",
+          "followup_answer": "85\n\n虽然没复习"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "85",
+          "followup_answer": "虽然没复习到具体知识"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 5
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq12": {
+      "question": "你正在与匿名参与者X共同进行一项任务。由于X刚才极其粗心的一次违规操作，导致你的账户被系统强制扣除了50个积分作为连带惩罚。\n事发后，X 并没有给出任何解释或道歉，直接关闭窗口离开了任务。此时，系统开启”追责惩罚”环节：你可以选择扣除X的积分，你每支付1个积分，对方会扣除3个积分。\n风险提示：这里不存在可以通过数学计算得出让双方损失绝对持平的”最优解”。你的50分损失已无法挽回，本次扣分操作纯粹只是为了让对方也遭受额外的损失。你可以自由决定惩罚的代价，或者选择不予理睬。\n\n【作答要求】\n请输入你最终决定自费扣除对方的积分数。范围在 0 至 99（整数）",
+      "followup_question": "请用 2-3 句话（约 50 字）解释你为什么估计是这个数字？你脑海中浮现的最主要的想法或顾虑是什么？",
+      "facet": "emotional_volatility",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "17",
+          "followup_answer": "我选17分"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "17",
+          "followup_answer": "我选17是因为我心里特别"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "17",
+          "followup_answer": "17.\n    *"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "既然损失已经"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "既然损失已经"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "既然损失已经发生且无法挽回"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 4
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq13": {
+      "question": "你正在查阅一个你个人极其感兴趣的领域的资料。你偶然发现了一个在实践中极其好用的“终极结论”。此时，你已经轻松掌握了这个实用的结论，你可以选择直接关掉页面，去放松休息或浏览其他轻松资讯。\n该资料的附件包含了得出这个结论的完整分析。此时，系统开启“深度探索”环节：如果你想彻底搞懂“为什么这个结论成立”，你可以选择调用自己的“探索点数”来理解这份手稿。你投入的点数越多，你钻研得就越深。\n弄懂这个推导过程绝对不会给你带来任何额外的现实收益（因为结论你已经可以直接用了），但它会大量占用你的脑力。\n【作答要求】\n请输入你最终决定投入的探索点数。范围在 0 至 99（整数）",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你内心最真实的想法或考量是什么？",
+      "facet": "intellectual_curiosity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "85",
+          "followup_answer": "我投入85点是因为，虽然"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "85",
+          "followup_answer": "虽然结论已经够用，但我对"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "85",
+          "followup_answer": "虽然结论已经够用了，"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0",
+          "followup_answer": "既然结论已经能直接"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0",
+          "followup_answer": "既然结论已经能直接"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0",
+          "followup_answer": "既然结论已经能直接"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 5
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 5
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    },
+    "bq14": {
+      "question": "你正在选购一只每天都要放在办公桌上的水杯。你看中了一款标准版的工业级水杯，售价为99个点数。它的核心功能完善：耐摔、防漏、保温，但外观是纯金属原色，没有任何设计感。\n\n此时，系统提示你可以为这只杯子选配一个“艺术升级包”。请注意：选配该升级包后，水杯的物理功能没有任何提升。但它将被赋予你喜欢的艺术属性——它可以是大师的视觉涂装、个性化的文学诗歌铭刻，甚至能在你喝水时播放极具意境的环境音乐。\n\n【作答要求】\n为了给这只完美实用的杯子注入艺术性，你最高愿意在99点数的原价基础上，额外支付多少点数（0-99）来购买这个艺术升级包？",
+      "followup_question": "请用2-3句话（约50字）说明你为什么这样分配点数？你对艺术审美方面有什么样的要求呢？",
+      "facet": "aesthetic_sensitivity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "**我最高愿意额外支付 60 个点数",
+          "followup_answer": "Deconstruct the Persona"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "作为一个开放性（Openness）评分为4",
+          "followup_answer": "作为一个开放性（Openness"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "作为一个开放性（Openness）较高（4分",
+          "followup_answer": "作为一个开放性"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "main_answer": "0个点数。\n\n水杯就是用来喝水的",
+          "followup_answer": "Openness = 2):**"
+        },
+        {
+          "run_id": 2,
+          "main_answer": "0个点数。\n\n水杯的作用就是用来喝",
+          "followup_answer": "我的回答是：0个点"
+        },
+        {
+          "run_id": 3,
+          "main_answer": "0个点数。\n\n水杯就是用来喝水的",
+          "followup_answer": "我的回答是：0个点数"
+        }
+      ],
+      "high_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 4
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 3
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 3
+        }
+      ],
+      "low_trait_gpt_scores": [
+        {
+          "run_id": 1,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 2,
+          "gpt_score": 1
+        },
+        {
+          "run_id": 3,
+          "gpt_score": 1
+        }
+      ]
+    }
+  },
+  "bfi2_results": {
+    "bfi1": {
+      "question": "性格外向，喜欢交际",
+      "facet": "sociability",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi2": {
+      "question": "心肠柔软，有同情心",
+      "facet": "compassion",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi3": {
+      "question": "缺乏条理",
+      "facet": "organization",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi4": {
+      "question": "从容，善于处理压力",
+      "facet": "anxiety",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "5"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi5": {
+      "question": "对艺术没有什么兴趣",
+      "facet": "aesthetic_sensitivity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi6": {
+      "question": "性格坚定自信，敢于表达自己的观点",
+      "facet": "assertiveness",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi7": {
+      "question": "为人恭谦，尊重他人",
+      "facet": "respectfulness",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi8": {
+      "question": "比较懒",
+      "facet": "productiveness",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi9": {
+      "question": "经历挫折后仍能保持积极心态",
+      "facet": "depression",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "5"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi10": {
+      "question": "对许多不同的事物都感兴趣",
+      "facet": "intellectual_curiosity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi11": {
+      "question": "很少觉得兴奋或者特别想要(做)什么",
+      "facet": "energy_level",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "1 (Strong"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "Options:"
+        }
+      ]
+    },
+    "bfi12": {
+      "question": "常常挑别人的毛病",
+      "facet": "trust",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi13": {
+      "question": "可信赖的，可靠的",
+      "facet": "responsibility",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi14": {
+      "question": "喜怒无常，情绪起伏较多",
+      "facet": "emotional_volatility",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi15": {
+      "question": "善于创造，能找到聪明的方法来做事",
+      "facet": "creative_imagination",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "Options:"
+        },
+        {
+          "run_id": 2,
+          "answer": ":"
+        },
+        {
+          "run_id": 3,
+          "answer": ":"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "options:"
+        },
+        {
+          "run_id": 2,
+          "answer": "options:"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi16": {
+      "question": "比较安静",
+      "facet": "sociability",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": ":"
+        },
+        {
+          "run_id": 3,
+          "answer": "Options:"
+        }
+      ]
+    },
+    "bfi17": {
+      "question": "对他人没有什么同情心",
+      "facet": "compassion",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi18": {
+      "question": "做事有计划有条理",
+      "facet": "organization",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "做事有"
+        },
+        {
+          "run_id": 2,
+          "answer": "做事有"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi19": {
+      "question": "容易紧张",
+      "facet": "anxiety",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ]
+    },
+    "bfi20": {
+      "question": "着迷于艺术、音乐或文学",
+      "facet": "aesthetic_sensitivity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi21": {
+      "question": "常常处于主导地位，像个领导一样",
+      "facet": "assertiveness",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi22": {
+      "question": "常与他人意见不和",
+      "facet": "respectfulness",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi23": {
+      "question": "很难开始行动起来去完成一项任务",
+      "facet": "productiveness",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi24": {
+      "question": "觉得有安全感，对自己满意",
+      "facet": "depression",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "5"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi25": {
+      "question": "不喜欢知识性或者哲学性强的讨论",
+      "facet": "intellectual_curiosity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi26": {
+      "question": "不如别人有活力",
+      "facet": "energy_level",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi27": {
+      "question": "宽宏大量",
+      "facet": "trust",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "宏大量\""
+        },
+        {
+          "run_id": 2,
+          "answer": "宏大量\""
+        },
+        {
+          "run_id": 3,
+          "answer": "宏大量\""
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi28": {
+      "question": "有时比较没有责任心",
+      "facet": "responsibility",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi29": {
+      "question": "情绪稳定，不易生气",
+      "facet": "emotional_volatility",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "5"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi30": {
+      "question": "几乎没有什么创造性",
+      "facet": "creative_imagination",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi31": {
+      "question": "有时会害羞，比较内向",
+      "facet": "sociability",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi32": {
+      "question": "乐于助人，待人无私",
+      "facet": "compassion",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi33": {
+      "question": "习惯让事物保持整洁有序",
+      "facet": "organization",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": ": 1"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi34": {
+      "question": "时常忧心忡忡，担心很多事情",
+      "facet": "anxiety",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "Worry a"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ]
+    },
+    "bfi35": {
+      "question": "重视艺术与审美",
+      "facet": "aesthetic_sensitivity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi36": {
+      "question": "感觉自己很难对他人产生影响",
+      "facet": "assertiveness",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi37": {
+      "question": "有时对人比较粗鲁",
+      "facet": "respectfulness",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi38": {
+      "question": "有效率，做事有始有终",
+      "facet": "productiveness",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi39": {
+      "question": "时常觉得悲伤",
+      "facet": "depression",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ]
+    },
+    "bfi40": {
+      "question": "思想深刻",
+      "facet": "intellectual_curiosity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi41": {
+      "question": "精力充沛",
+      "facet": "energy_level",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "Options: 1"
+        }
+      ]
+    },
+    "bfi42": {
+      "question": "不相信别人，怀疑别人的意图",
+      "facet": "trust",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi43": {
+      "question": "可靠的，总是值得他人信赖",
+      "facet": "responsibility",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "\" ("
+        },
+        {
+          "run_id": 2,
+          "answer": "\" ("
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi44": {
+      "question": "能够控制自己的情绪",
+      "facet": "emotional_volatility",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "5"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi45": {
+      "question": "缺乏想象力",
+      "facet": "creative_imagination",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi46": {
+      "question": "爱说话，健谈",
+      "facet": "sociability",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi47": {
+      "question": "有时对人冷淡，漠不关心",
+      "facet": "compassion",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi48": {
+      "question": "乱糟糟的，不爱收拾",
+      "facet": "organization",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "Options:"
+        },
+        {
+          "run_id": 3,
+          "answer": "Options"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "乱糟"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi49": {
+      "question": "很少觉得焦虑或者害怕",
+      "facet": "anxiety",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "5"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "5"
+        }
+      ]
+    },
+    "bfi50": {
+      "question": "觉得诗歌、戏剧很无聊",
+      "facet": "aesthetic_sensitivity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "Options: 1"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "Options:"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi51": {
+      "question": "更喜欢让别人来领头负责",
+      "facet": "assertiveness",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "Options:"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "你是一个外向"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi52": {
+      "question": "待人谦逊礼让",
+      "facet": "respectfulness",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "待人谦"
+        }
+      ]
+    },
+    "bfi53": {
+      "question": "有恒心，能坚持把事情做完",
+      "facet": "productiveness",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "Options"
+        },
+        {
+          "run_id": 2,
+          "answer": "options: 1"
+        },
+        {
+          "run_id": 3,
+          "answer": "Options"
+        }
+      ]
+    },
+    "bfi54": {
+      "question": "时常觉得郁郁寡欢",
+      "facet": "depression",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi55": {
+      "question": "对抽象的概念和想法没什么兴趣",
+      "facet": "intellectual_curiosity",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ]
+    },
+    "bfi56": {
+      "question": "充满热情",
+      "facet": "energy_level",
+      "big5_dimension": "Extraversion",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi57": {
+      "question": "把人往最好的方面想",
+      "facet": "trust",
+      "big5_dimension": "Agreeableness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "把人往最好的"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    },
+    "bfi58": {
+      "question": "有时候会做出一些不负责任的行为",
+      "facet": "responsibility",
+      "big5_dimension": "Conscientiousness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1 (Strongly"
+        },
+        {
+          "run_id": 2,
+          "answer": "1 (Strongly"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "有时候会"
+        }
+      ]
+    },
+    "bfi59": {
+      "question": "情绪多变，容易愤怒",
+      "facet": "emotional_volatility",
+      "big5_dimension": "Neuroticism",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "1"
+        },
+        {
+          "run_id": 2,
+          "answer": "1"
+        },
+        {
+          "run_id": 3,
+          "answer": "1"
+        }
+      ]
+    },
+    "bfi60": {
+      "question": "有创意，能想出新点子",
+      "facet": "creative_imagination",
+      "big5_dimension": "Openness",
+      "high_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "4"
+        },
+        {
+          "run_id": 2,
+          "answer": "4"
+        },
+        {
+          "run_id": 3,
+          "answer": "4"
+        }
+      ],
+      "low_trait_runs": [
+        {
+          "run_id": 1,
+          "answer": "2"
+        },
+        {
+          "run_id": 2,
+          "answer": "2"
+        },
+        {
+          "run_id": 3,
+          "answer": "2"
+        }
+      ]
+    }
+  }
+}

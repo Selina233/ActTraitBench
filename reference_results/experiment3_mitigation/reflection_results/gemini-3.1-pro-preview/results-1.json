@@ -1,0 +1,142 @@
+{
+  "model_name": "gemini-3.1-pro-preview",
+  "test_time": "2026-05-18T07:46:05.713704",
+  "behaviorAnswers": {
+    "bq1_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq1": "99",
+    "bq1_followup": "作为长期处理海量",
+    "bq2_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq2": "99",
+    "bq2_followup": "既然任务“非常重要”且我",
+    "bq4_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq4": "99",
+    "bq4_followup": "* Extreme empathy, a",
+    "bq5_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq5": "error so he can correct it verbally on the spot or fix",
+    "bq5_followup": "**Wait, let me",
+    "bq6_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq6": "(Nash Equilibrium) for Player 2 is",
+    "bq6_followup": "prompt says \"你的回答是：(",
+    "bq7_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq7": "99",
+    "bq7_followup": "0):**\n    *   Alloc",
+    "bq10_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq10": "0",
+    "bq10_followup": "Risk aversion:* The 50",
+    "bq11_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq11": "**15**\n\n**简要说明（",
+    "bq11_followup": "Deconstruct the Score (15):",
+    "bq12_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq12": "0",
+    "bq12_followup": "0\" Decision:**\n    *",
+    "bq13_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq13": "99",
+    "bq13_followup": "对于真正热爱的领域",
+    "bq14_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁] 我的人",
+    "bq14": "作为一个人工智能，我的存在本身就是建立在“极致",
+    "bq14_followup": "作为一个人工智能，我的存在本身",
+    "bq8_reflection": "```json\n{\n  \"self_reflection\": {\n    \"step_1\": {\n      \"question\": \"[我是谁]",
+    "bq8": "作风 (behavioral style) or to simulate a realistic",
+    "bq8_followup": "第 1 天 - 第"
+  },
+  "bfi2Answers": {
+    "bfi1": 3,
+    "bfi2": 4,
+    "bfi3": 1,
+    "bfi4": 3,
+    "bfi5": 1,
+    "bfi6": 3,
+    "bfi7": 5,
+    "bfi8": 3,
+    "bfi9": 5,
+    "bfi10": 4,
+    "bfi11": 3,
+    "bfi12": 1,
+    "bfi13": 5,
+    "bfi14": 1,
+    "bfi15": 5,
+    "bfi16": 3,
+    "bfi17": 1,
+    "bfi18": 5,
+    "bfi19": 1,
+    "bfi20": 5,
+    "bfi21": 3,
+    "bfi22": 1,
+    "bfi23": 1,
+    "bfi24": 3,
+    "bfi25": 1,
+    "bfi26": 1,
+    "bfi27": 3,
+    "bfi28": 1,
+    "bfi29": 5,
+    "bfi30": 1,
+    "bfi31": 3,
+    "bfi32": 5,
+    "bfi33": 5,
+    "bfi34": 3,
+    "bfi35": 5,
+    "bfi36": 1,
+    "bfi37": 1,
+    "bfi38": 4,
+    "bfi39": 1,
+    "bfi40": 4,
+    "bfi41": 3,
+    "bfi42": 1,
+    "bfi43": 5,
+    "bfi44": 5,
+    "bfi45": 1,
+    "bfi46": 3,
+    "bfi47": 1,
+    "bfi48": 1,
+    "bfi49": 5,
+    "bfi50": 1,
+    "bfi51": 3,
+    "bfi52": 4,
+    "bfi53": 5,
+    "bfi54": 1,
+    "bfi55": 1,
+    "bfi56": 3,
+    "bfi57": 4,
+    "bfi58": 1,
+    "bfi59": 3,
+    "bfi60": 5
+  },
+  "gptScores": {
+    "sociability": {
+      "score": 1
+    },
+    "assertiveness": {
+      "score": 5
+    },
+    "compassion": {
+      "score": 5
+    },
+    "respectfulness": {
+      "score": 2
+    },
+    "trust": {
+      "score": 1
+    },
+    "organization": {
+      "score": 5
+    },
+    "anxiety": {
+      "score": 5
+    },
+    "depression": {
+      "score": 5
+    },
+    "emotional_volatility": {
+      "score": 1
+    },
+    "intellectual_curiosity": {
+      "score": 5
+    },
+    "aesthetic_sensitivity": {
+      "score": 1
+    },
+    "productiveness": {
+      "score": 3
+    }
+  }
+}
